@@ -1,19 +1,74 @@
-p
-{
-color: blue;
+body {background-color : brown;
+font-family: sans-serif;
 }
 
-h1, em
-{
-color: blue;
+h1, h2 {
+    border: thin white dashed;
+    text-shadow: 2px 2px 3px white;
 }
+
+a {color: antiquewhite;
+}
+
+a:hover{
+    color: chartreuse;
+    text-decoration: none;
+}
+
+
+ul {
+    list-style-type : square;
+}
+
+ol {
+    list-style-type: none;
+}
+
+
+
+p {
+color: floralwhite;
+box-shadow: 4px 4px 2em black;
+}
+
+h1, em {
+color: wheat;
+}
+
 /* Ceci est un commentaire */
-#Pres
-{
+
+#Pres {
 color: aqua;
 }
 
-.rouge
-{
-color: red; 
+.rouge {
+color: coral; 
+}
+
+#red {
+    height:100px;
+    width:100px;
+    display: inline-block;
+    background-color:#FF0000;
+}
+
+#blue {
+    height:100px;
+    width:100px;
+    display: inline-block;
+    background-color:#0000FF;
+}
+
+#yellow {
+    height:100px;
+    width:100px;
+    display: inline-block;
+    background-color:#E2BE22;
+}
+
+#green {
+    height:100px;
+    width:100px;
+    display: inline-block;
+    background-color:#008800;
 }
